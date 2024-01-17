@@ -1,10 +1,12 @@
 body{
-    width: 85%;
+    width: 100%;
     margin: auto;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .header{
-    width: 100%;
+    width: 85%;
+    margin: auto;
 }
 .navigations{
     display: flex;
@@ -92,9 +94,10 @@ nav>ul>li a{
 
 .popular{
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;    
     padding-top: 100px;
+    margin: auto
 }
 
 .tour-list{
@@ -230,27 +233,249 @@ nav>ul>li a{
     display: block;
     justify-content: center;
     align-items: center;
+    text-transform: capitalize;
 }
 
-.card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+}
+
+.card {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+.card img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+}
+.card h2 {
+    margin-top: 10px;
+    color: #333;
+}
+.card p {
+    color: #666;
+}
+.offwhite{
+    background-color: bisque;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.lightpink{
+    background-color: lightpink;
+}
+
+/* llllllll */
+
+.deals{
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(../Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+    margin: auto;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin-top: 40px;
+}
+.dealbox{
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-right: 40px;
+}
+.middle{
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(../Images/Group\ 40.png), lightgray 50% / cover no-repeat;
+    margin: auto;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-top: 40px;
+}
+.dealbox{
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 40px;
+    text-transform: capitalize;
+    padding-top: 30px;
     align-items: center;
 }
-.cardgrid{
-    width: 550px;
-    height: 284px;
-    flex-shrink: 0;
-    border: 1px solid black;
-    padding: 20px 0px 0px 20px;
+.inside-deal{
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
 }
-.cardgrid>img{
-    width: 64px;
-height: 64px;
+.dealspromo{
+    padding: 20px;
+}
+.btn{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 114px;
+    height: 45px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 5px 5px;
+    margin-top: 30px;
+}
+.snav>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.newsletter{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    gap: 25px;
+    margin-top: 100px;
+}
+.form-container{
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.form-title{
+    width: 400px;
+    margin: auto;
+}
+.save70{
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50% / cover no-repeat;
+}
+.save70>div{
+    width: 324px;
+height: 120px;
+transform: rotate(-45deg) translateX(104px) translateY(422px);
 flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+padding-top: 20px;
+text-transform: uppercase;
+border: 4px solid white;
+color: white;
+}
+.input{
+    width: 450px;
+    margin: auto;
+}
+.input>input{
+    display: block;
+    margin: 20px;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 20px;
+}
+.input>button{
+    display: block;
+    margin: 20px;
+    width: 416px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
-.lastchild{
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 582px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 70px;
+}
+.logo-travel>img{
+    height: 150px;
+    width: 150px;
+}
+.logo-travel{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer>p{
+    text-align: center;
+    width: 650px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons>i{
+    margin: 30px;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    body{
+        width: 100%;
+        display: block;
+    }
+    .header{
+        display: block;
+        grid-template-columns: 1fr;
+    }
+    .navigations{
+        flex-direction: column;
+    }
+    .popular{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+        margin: auto;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .where-to{
+        flex-direction: column;
+    }
+    .row>div{
+        margin-top: 10px;
+    }
 }
