@@ -221,3 +221,36 @@ nav>ul>li a{
     height: 100%;
     align-items: center;
 }
+
+
+/* card */
+.why{
+    width: 85%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.cardgrid{
+    width: 550px;
+    height: 284px;
+    flex-shrink: 0;
+    border: 1px solid black;
+    padding: 20px 0px 0px 20px;
+}
+.cardgrid>img{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+
+.lastchild{
+}
