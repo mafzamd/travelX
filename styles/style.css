@@ -1,0 +1,223 @@
+body{
+    width: 85%;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+}
+.navigations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.logo>li img{
+    height: 150px;
+    width: 150px;
+}
+.logo>li span{
+    align-items: center;
+    color: rgb(10, 191, 246);
+}
+.logo>li h1{
+    font-size: 50px;
+}
+.nav{
+    width: 45%;
+}
+.nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav>ul>li a{
+
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+
+.banner-img{
+    width: 90%;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    width: 60%;
+    margin: auto;
+    padding-top: 106px;
+    align-items: center;
+    text-align: center;
+}
+.banner-container>h1, .banner-container>p{
+    color: white;
+}
+.where-to{
+    display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+.where-to>input{
+    width: 154px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.where-to>button{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 104px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+
+/* popular */
+
+.popular{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;    
+    padding-top: 100px;
+}
+
+.tour-list{
+    width: 45%;
+}
+.tour-list>h1{
+    font-size: 40px;
+}
+.tour-list>p{
+    line-height: 25px;
+}
+.tour-list>ul{
+    line-height: 25px;
+}
+.tour-list>button{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 114px;
+    height: 45px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 5px 5px;
+}
+
+/* destination choice */
+.destination-choice{
+    width: 85%;
+    margin: auto;
+}
+.destination-title{
+    text-align: center;
+}
+
+.row{
+    height: 300px;
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+    width: 100%;
+}
+.one{
+    background-color: #FF5400;
+    width: 100%;
+    background: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.two{
+    background-color: #FF5400;
+    width: 100%;
+    background: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.four{
+    background-color: #FF5400;
+    width: 100%;
+    background: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.three{
+    background-color: #FF5400;
+    width: 100%;
+    background: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.five{
+    background-color: #FF5400;
+    width: 100%;
+    background: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.six{
+    background-color: #FF5400;
+    width: 100%;
+    background: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.seven{
+    background-color: #FF5400;
+    width: 100%;
+    background: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
